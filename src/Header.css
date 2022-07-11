@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    /* aligns all the items in header to the centr */
+    align-items: center;
+    border-bottom: 1px solid gainsboro;
+}
+
+.header__logo {
+    height: 40px;
+    /* keeps aspect ratio */
+    object-fit: contain;
+}
+
+.header__icon {
+    padding: 20px;
+}

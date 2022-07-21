@@ -4,6 +4,8 @@ import TinderCards from "./TinderCards";
 import SwipeButtons from './SwipeButtons';
 import ReactDOM from "react-dom/client";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Chats from "./Chats";
+import ChatScreen from "./ChatScreen"
 
 import './App.css';
 import { Home } from '@material-ui/icons';
@@ -12,17 +14,21 @@ import { Home } from '@material-ui/icons';
 function App() {
   return (
     <div className="App">
-      <Header/>
       <Router>
         <Switch>
+          <Route path="/chat/:person">
+            <Header backButton = "/chat"/>
+            <ChatScreen/>
+          </Route>
           <Route path="/chat">
-            <h1> I am the chat page </h1>
+            <Header backButton = "/"/>
+            <Chats />
           </Route>
           <Route path="/">
+            <Header />
             <TinderCards/>
             <SwipeButtons/>
           </Route>
-          
         </Switch>
       </Router>
 

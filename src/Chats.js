@@ -9,7 +9,7 @@ function Chats() {
                 name = "AV"
                 message = "YO WHATS UP!"
                 timestamp = "40 seconds ago"
-                profilePic = "https://scontent-yyz1-1.xx.fbcdn.net/v/t39.30808-6/270748454_2596636280479959_7901092657386566427_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=0oMFqA_o5kQAX-ExE94&_nc_ht=scontent-yyz1-1.xx&oh=00_AT9Z3Q1PnhLiq0yySUR4EbGV_BJxqCdzc5204rC4I-mVbw&oe=62D82AA0"
+                profilePic = "https://scontent-yyz1-1.xx.fbcdn.net/v/t39.30808-6/270748454_2596636280479959_7901092657386566427_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=GrWvQ4qBcygAX_hWUjL&_nc_ht=scontent-yyz1-1.xx&oh=00_AT_Tg1APk6-HXA6QqqZ7FnJiqjruXRSTJci9-24n1o8gmA&oe=62DE1960"
             />
             <Chat
                 name = "Emily"
